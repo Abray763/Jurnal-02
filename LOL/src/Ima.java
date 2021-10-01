@@ -4,14 +4,14 @@ public class Ima {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nama :");
         String a = sc.nextLine();
+        System.out.print("Kelas :");
+        int b = sc.nextInt();
         System.out.print("Nim :");
-        String b = sc.nextLine();
-        System.out.print("Ipk :");
-        float c = sc.nextFloat();
+        long c = sc.nextLong();
      
         System.out.println("Nama\t : "+ a);
-        System.out.println("Nim\t :  "+ b);
-        System.out.println("Ipk\t : "+ c);
+        System.out.println("Kelas\t :  "+ b);
+        System.out.println("Nim\t : "+ c);
     }
 }
 
